@@ -6,46 +6,46 @@ body {
 }
 
 h1 {
-    font-family: 'Roboto Slab', serif;
-    color: #c9d030;
+  font-family: 'Roboto Slab', serif;
+  color: #c9d030;
 }
 
 h2 {
-    font-family: 'Roboto Slab', serif;
-    color: #50becf;
+  font-family: 'Roboto Slab', serif;
+  color: #50becf;
 }
 
 h3 {
-    font-family: 'Roboto Slab', serif;
-    color: #50becf;
+  font-family: 'Roboto Slab', serif;
+  color: #50becf;
 }
 
 h4 {
-    font-family: 'Roboto Slab', serif;
-    color: #50becf;
+  font-family: 'Roboto Slab', serif;
+  color: #50becf;
 }
 
 h5 {
-    font-family: 'Roboto Slab', serif;
-    color: #50becf;
+  font-family: 'Roboto Slab', serif;
+  color: #50becf;
 }
 
 h6 {
-    font-family: 'Roboto Slab', serif;
-    color: #50becf;
+  font-family: 'Roboto Slab', serif;
+  color: #50becf;
 }
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #f3f3f6;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #f3f3f6;
 }
 
 
 /* Navigation Bar */
 
 .navbar {
-    background-color: #272633;
+  background-color: #272633;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -53,12 +53,12 @@ p {
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #c9d030;
+  color: #c9d030;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, 
 .navbar-dark .navbar-nav .nav-link:focus {
-    color: #646c7e;
+  color: #646c7e;
 }
 
 .navbar-dark .navbar-toggler {
@@ -78,20 +78,30 @@ p {
 }
 
 button:focus {
-    outline: none;
+  outline: none;
 }
 
 
 /* Main Body */
 
 .lead {
-    font-weight: 400;
-    font-size: 17px;
-    color: #50becf;
+  font-weight: 400;
+  font-size: 17px;
+  color: #50becf;
 }
 
 .pageheader {
-    padding-top: 2rem;
+  padding-top: 2rem;
+}
+
+/* Contact Card */
+
+.card {
+  background-color:#646c7e;
+  border: 4px solid #f3f3f6;
+  border-radius: .25rem;
+  max-width: 100%;
+  height: auto;
 }
 
 
