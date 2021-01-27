@@ -68,6 +68,10 @@ button:focus {
 
 /* Main Body */
 
+.col-lg-4 {
+  padding-bottom: 15px;
+}
+
 .img-thumbnail {
   border-style: none;
 }
