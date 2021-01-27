@@ -78,6 +78,17 @@ button:focus {
   color: #50becf;
 }
 
+.links {
+  color: #edad3d;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.links:hover {
+  color: #c9d030;
+  text-decoration: none;
+}
+
 .pageheader {
   padding-top: 2rem;
 }
