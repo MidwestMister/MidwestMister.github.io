@@ -68,6 +68,10 @@ button:focus {
 
 /* Main Body */
 
+.img-thumbnail {
+  border-style: none;
+}
+
 .lead {
   font-weight: 400;
   font-size: 17px;
@@ -76,6 +80,17 @@ button:focus {
 
 .pageheader {
   padding-top: 2rem;
+}
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  transform: scale(1.02); 
 }
 
 
@@ -122,6 +137,7 @@ button:focus {
   font-family: 'Roboto', sans-serif;
   background-color: #edad3d;
   border-color: #f3f3f6;
+  border-width: 2px;
   margin-bottom: 1rem;
   margin-right: 1rem;
 }
